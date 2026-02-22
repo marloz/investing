@@ -26,7 +26,7 @@ My parents seem to be in quite stable financial situation, but their wealth is h
 
 ## Current assets / liabilities
 
-Human capital: currently I have a stable job allowing me to achieve ~50% savings rate (based of net income). Of which, employer + pre-tax contributions account to 10% of savings rate and II pillar pension fund contributions add another 5%. I perceive the job as secure, of course long term prospects remain uncertain as always (AI, wars, etc.).
+Human capital: currently I have a stable job allowing me to achieve ~50% savings rate (based of net income). Of which, employer + pre-tax contributions account to 10% of savings rate. I perceive the job as secure, of course long term prospects remain uncertain as always (AI, wars, etc.).
 
 Real estate: owning a home, with less than 10 year mortgage left, payments constitute less than 10% after tax income, so not a huge burden, especially sharing with wife. Loan to original value ratio is currently around 10%.
 
@@ -76,27 +76,23 @@ I don't think existence of factor premiums contradict the Efficient Market Hypot
 ### Equity target weights
 
 - 30% Small cap value/profitability (AVWS) - these should be the riskiest stocks, because of higher embedded leverage, lower available information and liquidity, hence, expected premium likely to be highest. Contrarian bet, as they might underperform MCW for a long time (+10 years).
-- 20% Momentum (XDEM) - there's quite considerable evidence that momentum and value diversify each other, as these momentum stocks are usually large cap growth, so companies beloved by everyone that tend to get too expensive sometimes. Because I don't intend to hold a MCW ETF separately, having considerable momentum allocation provides me exposure to FOMO companies (what if AI stocks go to the moon and I miss it?). It has less sound theoretical risk basis for premium, but very decent empirical record, hence, lower weight than SCV.
+- 20% Momentum (XDEM) - there's quite considerable evidence that momentum and value diversify each other, as these momentum stocks are usually large cap growth (at least recently), so companies beloved by everyone that tend to get too expensive sometimes. Because I don't intend to hold a MCW ETF separately, having considerable momentum allocation provides me exposure to FOMO companies (what if AI stocks go to the moon and I miss it?). It has less sound theoretical risk basis for premium (some papers suggest that it is dynamic proxy for capturing other premia), but very decent empirical record, hence, lower weight than SCV.
 - 20% Large/mid value/profitability (JGPL)- SCV+MOM can be viewed as strong factor tilts satellite, whereas this part is more of a core/defensive, still considerable factor exposure but less volatile than other two and adds extra diversification, if e.g. small caps underperform. Additionally, it is reweighed by sectors so is more akin to equal weight fund, helps to diversify extreme tech concentration in MCW.
 - 10% large/mid emerging market multi-factor (FLXE) - good evidence of diversification to developed markets, especially when USD weakens, but country specific risks is what keeps the premium alive.
 
 ### Bonds
 
-5% German bunds (X03G) - all maturities, adding some duration, seems that for now German debt situation is best of worst options.
+5% 0-5yr US TIPS hedged to EUR (CBUL) - wanted to add some inflation indexing at lower duration. Although not ideal, since its US, which has its own problems and CPI might not directly reflect EUR and there are hedging costs, but other options were also not that attractive (France, Spain, UK debt problems, longer duration, etc.).
 
-5% 0-5yr US TIPS hedged to EUR (CBUL) - wanted to add some inflation indexing at lower duration. Although not ideal, since its US, which has its own problems and CPI might not directly reflex EUR and there are hedging costs, but other options were also not that attractive (France, Spain, UK debt problems, longer duration, etc.).
-
-I want to minimize currency risk, so bonds should be either EUR denominated or at least EUR hedged. Primary purpose is liquidity, so try to keep duration on the lower end, but might use non money market funds, as I don't know exactly when liquidity needs might arise. 
-
-Equal split between inflation linked and nominal, as unexpected inflation is definitely a risk you want to avoid, if faced with sudden withdrawal need, similarly, nominals should perform better in case of deflationary crash. Using government bonds, need liquidity and safety, so credit risk is not something I seek here.
+I want to minimize currency risk in bond sleeve as it's primary purpose is to provide stability/liquidity, so bonds should be either EUR denominated or at least EUR hedged. Additionally, keep duration on lower end at least for now, later if bonds are added for deflationary crash protection for stocks, more intermediate duration could be added. Similarly, minimal credit risk should be taken, think stable, boring and potentially money losing over longer term in real terms, but being there when needed.
 
 ### Gold
 
-5% Physical in USD (EGLN) - despite the fact its expected return is 0 and there are no cash flows, empirical evidence is pretty strong for decent diversification properties, especially in light of geopolitical risks and stagflationary pressures, so 5-10% allocation, seems prudent.
+5% Physical in USD (EGLN) - despite the fact its expected return is 0 and there are no cash flows, empirical evidence is pretty strong for decent diversification properties, especially in light of geopolitical risks and stagflationary pressures, so 5-10% allocation, seems prudent. Getting some second thoughts about this allocation now that it experienced astronomical returns recently and seems like trend following it is better approach than static position as it may underperform for decades, but current uncertainty just makes it hard not to hold at least some (although you could argue that physical gold is superior choice, if those risks actually manifest).
 
 ### Trend following
 
-5% DBMFE - once again, very strong empirical evidence for diversification benefits and crisis alpha. However, differently from gold, there's considerable implementation and manager selection risk, high complexity, lower transparency and high costs. Besides, as of now there seems to be only single UCITS ETF (DBMF), which does not have super high expense ratio and minimum investment requirement. 
+10% DBMFE - once again, very strong empirical evidence for diversification benefits and crisis alpha. However, differently from gold, there's considerable implementation and manager selection risk, high complexity, lower transparency and high costs. Besides, as of now there seems to be only single UCITS ETF (DBMF), which does not have super high expense ratio and minimum investment requirement. 
 
 Because of manager risk, be careful to place more than 10% in one fund, even though this fund is replicator of CTAs and aims to capture asset class 'beta', so risk is somewhat mitigated. 
 
@@ -104,13 +100,29 @@ One could argue that the asset class itself warrants exposure as high or higher 
 
 ### Leverage
 
-Leverage along with derivatives and short-selling is one of the financial concepts I would prefer to avoid in my portfolio, if possible. It introduces complexity and additional risk (not only intended but also unintended risk of mismanagement) and is definitely not something I would try to implement myself. 
+Leverage along with derivatives and short-selling are financial concepts that should be approached carefully, if at all. It introduces complexity and additional risk (not only intended but also unintended risk of mismanagement) and is definitely not something I would try to implement myself. 
 
 That being said though, I do acknowledge that there are some quite interesting products that use leverage to achieve better cash efficiency (return stacking). According to financial literature, the optimal portfolio construction approach is to find highest Sharpe ratio portfolio (so combining many independent sources of risk) and leveraging it to the desired level of risk. 
 
 With leverage constraints investors are forced to keep very high allocations to equity (as is also the situation in my case), which concentrates risk in market beta. So unintuitively, moderate leverage (say 25-50%) might help to achieve better diversification with similar level of risk (although implementation risk is added). 
 
 Again to my knowledge, right now there's limited number of UCITS funds (e.g. NTSG) that offer such products, but I would be open to consider them if they were available.
+
+There are some rumours that more portable alpha ETFs will be launched soon in UCITS, which may offer better cash efficiency than NTSG and exposure to trend, bonds or other assets. If and when it occurs I'll reconsider allocations, potentially replacing primarily XDEM with stocks+X, as it has least sound theoretical basis and potentially is closet MCW fund with higher transaction costs.
+
+### Other asset classes
+
+#### Real estate
+
+Already own home and it is larger portion of wealth than investment portfolio at least for now, so adding more exposure to asset class via REITs doesn't seem warranted, especially as its returns can be decomposed into value + credit and I do own considerable amount of SCV. Generally, not a good diversifier to stocks during crashes, so skip and use stocks instead.
+
+#### Carry
+
+There are some interesting funds in UCITS that offer commodity carry exposure, which has nice property of being uncorrelated to other assets, but might crash during stock crashes when liquidity is low, positions are liquidated and in general demand for commodities drops, plus to get somewhat decent returns funds apply 2-3x leverage, which adds another layer of risk. Skipping for now, but in general quite interesting and might be added later, when I gain more knowledge about it, there are better funds (or more history) and I need to de-risk exposure to market beta.
+
+#### Cat bonds
+
+This is an interesting one - there are quite convincing arguments that insurance risks (floods, fires, hurricanes and earthquakes) are completely uncorrelated to stocks/bonds and offers quite decent yield, but has a nasty tendency to crash hard when the events occur. This shouldn't be viewed the same way as bonds or trend following, which are supposed to hedge equity crashes, it's more the inherent uncorrelatedness (which you don't have with regular bonds) that is an attractive property here. Recently new UCTIS ETF launched for CAT bonds, although with quite high TER, so I'll wait a bit, but similar to carry it could be a good additional, especially when equity risk will need to be reduced later.
 
 ## Rebalancing & Drift Management
 
@@ -122,7 +134,7 @@ Tilts/deviations should be documented in IPS, preferably as modifications to lon
 
 ## Spending / Withdrawal Policy (if retired or drawing income)
 
-For now I will not spend much time describing this as it is still quite far away, but general aim is for 3% withdrawal rate adjusted for inflation annually, which can be considered conservative, because 4% is the baseline used by many. I choose lower rate because it yields higher portfolio accumulation goal, so enforces higher savings rate, both of which allow more leeway if things don't turn out as expected. Realistically, if this plan does not go as expected, I think 4% withdrawal rate is sound, given that it can be flexible and vary e.g. 3-5% based on market returns that year.
+For now I will not spend much time describing this as it is still quite far away, but general aim is for 3% withdrawal rate adjusted for inflation annually, which can be considered conservative, because 4% is the baseline used by many. I choose lower rate because it yields higher portfolio accumulation goal, so enforces higher savings rate, both of which allow more leeway if things don't turn out as expected. Realistically, if this plan does not go as expected, I think 4% withdrawal rate is sound, given that it can be flexible and vary e.g. 3-5% based on market returns that year and projected probabilistic failure rate over entire investment horizon.
 
 ## Liquidity & Emergency Fund
 
@@ -142,7 +154,7 @@ Additionally, IBKR has an option of tax optimization when selling your positions
 
 IIIrd pillar pension fund is tax advantaged, if used in retirement, so goal is not to touch this until the time.
 
-IInd pillar pension is tax-free, but for now there aren't considerable funds here.
+Currently in process of opening a private holding company, to which I'll transfer stocks I own of my parents' company, such that dividends are transferred tax free and can be invested. The holding will need to pay capital gains (profit) tax and I'll have to pay income tax when eventually decide to pay out dividends from the holding, but because larger sum can be invested before tax, it is still advantageous compared to personal investment account.
 
 ## Behavioral Guardrails
 
@@ -164,6 +176,11 @@ Generally larger positions (>10%) should be in funds with at least $100M AUM, fu
 Annual review of this document should be performed preferably after New Year to assess if goals, allocations and rules still apply or need modification. Use changelog to track what changes were made and rationale behind it.
 
 ## Changelog
+
+### 2026-02-22
+- Allocation changes - increased DBMF to 10%, sold agg bunds. Emergency fund  +  TIPS now serve liquidity, DBMF + gold protect from tail risks. Added more explanation of assets class, which I currently don't use but am considering, especially with potential addition of return stacked products and liquidation of XDEM. 
+
+**Note: to self review and update IPS before making any changes, this time it was done ad hoc and not on some reasonable schedule (e.g. quarterly review), could be laziness, but also a sign of potential behavioural flaw that sometimes I could be too trigger-happy, if sufficiently convinced.** 
 
 ### 2026-01-03
 - Annual review. Tracking error ~2p.p. which is ok as stated. Main changes - added gold, DBMF, short term US TIPS. Sold short term German bunds (was 10%), reduced agg bunds from 10% to 5%. Rationale - already have EUR money market ETF in emergency fund, diversifying into alternatives more to guard against sovereign debt / stagflation / political instability more and reduce cash drag.
